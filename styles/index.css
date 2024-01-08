@@ -2,7 +2,7 @@
 
 section {
   margin-bottom: 120px;
-  margin: 120px 150px;
+  margin: 120px 100px;
 }
 
 /* header styles */
@@ -82,21 +82,22 @@ header {
 .party-section {
   background-image: url("../resources/Vectorrr.png");
   background-repeat: no-repeat;
-  width: 1320px;
-  height: 600px;
-  padding: 125px 0 0 125px;
+  border-radius: 16px;
+  /* background-size: cover; */
+  /* padding: 0 0 0 125px; */
 }
 
 .party-section-content {
-  max-width: 700px;
+  max-width: 500px;
+  /* padding-bottom: 125px; */
 }
 
 .party-section-content h1 {
   color: #fff;
   font-family: Merriweather;
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 900;
-  line-height: 88px;
+  line-height: 50px;
   letter-spacing: 7.04px;
 }
 
@@ -119,7 +120,11 @@ header {
 /* location section related styles */
 
 .location-section {
-  background-color: antiquewhite;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
   padding: 100px 0;
 }
 
@@ -130,7 +135,7 @@ header {
 
 .location-section-content h3 {
   font-family: Inter;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 20px;
 }
@@ -146,13 +151,18 @@ header {
 .location-section-btn button {
   border-radius: 8px;
   background: #f00;
-  padding: 16px 32px;
+  padding: 15px 30px;
   color: #fff;
   font-family: Inter;
   border: 0;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
+}
+
+.location-section-btn button:hover {
+  cursor: pointer;
+  font-size: 19px;
 }
 
 /* holyday section related styles */
@@ -164,16 +174,17 @@ header {
 .holyday-text-content h4 {
   color: #070211;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 20px;
+  margin-bottom: 0;
 }
 
 .holyday-text-content h1 {
   color: #070211;
   font-family: Merriweather;
-  font-size: 72px;
+  font-size: 62px;
   font-style: normal;
   font-weight: 900;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .holyday-text-content span {
@@ -183,7 +194,7 @@ header {
 .holyday-text-content p {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 32px;
   /* max-width: 1000px;
   text-align: center; */
@@ -194,13 +205,14 @@ header {
 .gifts-text-content h4 {
   color: #f00;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .gifts-text-content h2 {
   color: #070211;
   font-family: Merriweather;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 900;
   margin: 0;
 }
@@ -208,7 +220,7 @@ header {
 .gifts-text-content p {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 32px;
   max-width: 900px;
 }
@@ -216,6 +228,7 @@ header {
 .gifts-images-container img {
   padding: 10px;
   border-radius: 15px;
+  width: 31.15%;
 }
 
 /* subscribe section related styles */
@@ -223,9 +236,13 @@ header {
 .subscribe-section {
   background: rgba(255, 0, 0, 0.05);
   padding: 100px 200px;
+  border-radius: 16px;
 }
 
 .subscribe-section img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .subscribe-texts-content {
@@ -236,7 +253,7 @@ header {
 .subscribe-texts-content h2 {
   color: #070211;
   font-family: Merriweather;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 900;
   margin: 0;
 }
@@ -244,7 +261,7 @@ header {
 .subscribe-texts-content p {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 32px;
   margin-bottom: 50px;
 }
@@ -255,8 +272,7 @@ header {
 }
 
 .subscribe-form input[type="email"] {
-  /* border-radius: 50%; */
-  padding: 25px 300px 25px 30px;
+  padding: 25px 200px 25px 30px;
   border: 0;
   border-radius: 50px 0px 0px 50px;
 }
@@ -270,6 +286,11 @@ header {
   background: #f00;
   border: 0;
   padding: 0 55px;
+}
+
+.subscribe-form button:hover {
+  cursor: pointer;
+  font-size: 22px;
 }
 
 /* footer styles */
@@ -291,6 +312,9 @@ footer p {
 }
 
 .footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
   padding: 50px 0;
 }
 
@@ -298,4 +322,16 @@ footer p {
   display: flex;
   justify-content: space-between;
   padding: 100px 150px;
+}
+
+.footer-second-row button {
+  border: 0;
+  color: white;
+  background: none;
+  font-size: 20px;
+}
+
+.footer-second-row button:hover {
+  cursor: pointer;
+  font-size: 22px;
 }
