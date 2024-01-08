@@ -247,8 +247,33 @@ header {
   font-family: Inter;
   font-size: 18px;
   line-height: 32px;
-  /* max-width: 1000px;
-  text-align: center; */
+}
+
+.holyday-pictures {
+  margin-top: -400px;
+}
+
+.gift-box {
+  position: relative;
+  top: 590px;
+  right: 100px;
+  width: 50%;
+}
+
+.discount-image {
+  position: relative;
+  top: 380px;
+  right: 170px;
+}
+
+.red-dresses-lady {
+  display: block;
+  margin-left: auto;
+}
+
+.plane-red-carpet {
+  width: 1044px;
+  height: 200px;
 }
 
 /* gifts section related styles */
