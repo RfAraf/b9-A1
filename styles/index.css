@@ -14,18 +14,22 @@ section {
 }
 
 .header-texts-container h4 {
-  font-size: 32px;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .header-texts-container h1 {
-  font-size: 72px;
+  font-size: 62px;
   font-weight: 900;
   line-height: 95px;
 }
 
 header {
-  width: 1320px;
-  height: 600px;
+  /* height: 100%;
+  width: 100%; */
+  /* background-size: contain; */
+  /* width: 1320px;
+  height: 600px; */
   margin: 50px 150px;
   /* padding: 230px 350px; */
   background-image: url("../resources/Banner\ Image.png");
@@ -39,30 +43,38 @@ header {
 /* discount section related styles */
 
 .dicount-section {
-  /* text-align: center; */
+  /* background-color: ; */
 }
 
 .discount-section-texts h1 {
   color: #f00;
   text-align: center;
   font-family: "Inter", sans-serif;
-  font-size: 88px;
+  font-size: 80px;
   font-weight: 700;
+  margin-bottom: 0px;
 }
 
 .discount-section-texts h4 {
   color: #f00;
   text-align: center;
   font-family: "Inter", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
+  margin-bottom: 0px;
 }
 
 .discount-section-texts h2 {
   color: #070211;
   text-align: center;
   font-family: Inter;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
+  margin-top: 15px;
+}
+
+.discount-section img {
+  display: block;
+  margin: 0 auto;
 }
 
 /* party section related styles */
