@@ -5,12 +5,19 @@ section {
   margin: 120px 100px;
 }
 
+hr {
+  border-color: black;
+}
+
 /* header styles */
 
 .header-texts-container {
   text-align: center;
   color: white;
   font-family: "Merriweather", serif;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: -30px;
 }
 
 .header-texts-container h4 {
@@ -25,12 +32,15 @@ section {
 }
 
 header {
-  margin: 50px 150px;
+  width: 870px;
+  height: 310px;
+  margin: 50px 100px;
   background-image: url("../resources/Banner\ Image.png");
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../resources/Banner\ Image.png");
   background-repeat: no-repeat;
   padding: 100px;
+  background-size: contain;
   border-radius: 16px;
 }
 
@@ -70,15 +80,21 @@ header {
 /* party section related styles */
 
 .party-section {
+  width: 950px;
+  height: 250px;
   background-image: url("../resources/Vectorrr.png");
   background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
     url("../resources/Vectorrr.png");
   background-repeat: no-repeat;
   border-radius: 16px;
   padding: 100px 0 125px 100px;
+  display: flex;
+  background-size: contain;
+  gap: 150px;
 }
 
 .party-section-content {
+  margin-top: -30px;
   max-width: 500px;
   /* padding-bottom: 125px; */
 }
@@ -106,6 +122,11 @@ header {
   font-weight: 700;
   border: none;
   background: none;
+}
+
+.party-section-content button:hover {
+  cursor: pointer;
+  font-size: 22px;
 }
 
 /* location section related styles */
@@ -190,9 +211,10 @@ header {
 }
 
 .offer-img img {
-  width: 80%;
+  width: 70%;
   border: 15px solid red;
   border-radius: 50%;
+  padding: 25px;
 }
 
 .offer-second-column {
@@ -258,6 +280,7 @@ header {
   top: 590px;
   right: 100px;
   width: 50%;
+  box-shadow: none;
 }
 
 .discount-image {
@@ -305,6 +328,11 @@ header {
   padding: 10px;
   border-radius: 15px;
   width: 31.15%;
+}
+
+.gifts-images-container img:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 /* subscribe section related styles */
