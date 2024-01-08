@@ -1,3 +1,9 @@
+/* primary styles */
+
+section {
+  margin-bottom: 120px;
+}
+
 /* header styles */
 
 .header-texts-container {
@@ -22,7 +28,78 @@ header {
   margin: 50px 150px;
   /* padding: 230px 350px; */
   background-image: url("../resources/Banner\ Image.png");
+  background-repeat: no-repeat;
+  /* background-position: 100%; */
   /* background-size: 100%; */
   border-radius: 16px;
   /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%); */
+}
+
+/* discount section related styles */
+
+.dicount-section {
+  /* text-align: center; */
+}
+
+.discount-section-texts h1 {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+}
+
+.discount-section-texts h4 {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+}
+
+.discount-section-texts h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+/* party section related styles */
+
+.party-section {
+  background-image: url("../resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  margin: 0 150px;
+}
+
+.party-section-content {
+  padding: 125px 0 125px 125px;
+  max-width: 700px;
+}
+
+.party-section-content h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+
+.party-section-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  line-height: 30px;
+}
+
+.party-section-content button {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  background: none;
 }
