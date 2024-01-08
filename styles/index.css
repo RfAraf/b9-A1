@@ -25,26 +25,16 @@ section {
 }
 
 header {
-  /* height: 100%;
-  width: 100%; */
-  /* background-size: contain; */
-  /* width: 1320px;
-  height: 600px; */
   margin: 50px 150px;
-  /* padding: 230px 350px; */
   background-image: url("../resources/Banner\ Image.png");
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Banner\ Image.png");
   background-repeat: no-repeat;
-  /* background-position: 100%; */
-  /* background-size: 100%; */
+  padding: 100px;
   border-radius: 16px;
-  /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%); */
 }
 
 /* discount section related styles */
-
-.dicount-section {
-  /* background-color: ; */
-}
 
 .discount-section-texts h1 {
   color: #f00;
@@ -81,10 +71,11 @@ header {
 
 .party-section {
   background-image: url("../resources/Vectorrr.png");
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url("../resources/Vectorrr.png");
   background-repeat: no-repeat;
   border-radius: 16px;
-  /* background-size: cover; */
-  /* padding: 0 0 0 125px; */
+  padding: 100px 0 125px 100px;
 }
 
 .party-section-content {
@@ -163,6 +154,66 @@ header {
 .location-section-btn button:hover {
   cursor: pointer;
   font-size: 19px;
+}
+
+/* offer section related styles */
+
+.offer-section {
+  display: flex;
+  justify-content: space-between;
+  /* gap: auto; */
+}
+
+.offer-first-column {
+  max-width: 370px;
+}
+
+.offer-first-column h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 20px;
+}
+
+.offer-first-column h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.offer-first-column p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.offer-img img {
+  width: 80%;
+  border: 15px solid red;
+  border-radius: 50%;
+}
+
+.offer-second-column {
+  max-width: 275px;
+  margin-top: -30px;
+}
+
+.offer-second-column h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.offer-second-column p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 32px;
+  max-width: 400px;
 }
 
 /* holyday section related styles */
