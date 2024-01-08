@@ -2,6 +2,7 @@
 
 section {
   margin-bottom: 120px;
+  margin: 120px 150px;
 }
 
 /* header styles */
@@ -71,11 +72,10 @@ header {
   background-repeat: no-repeat;
   width: 1320px;
   height: 600px;
-  margin: 0 150px;
+  padding: 125px 0 0 125px;
 }
 
 .party-section-content {
-  padding: 125px 0 125px 125px;
   max-width: 700px;
 }
 
@@ -102,4 +102,160 @@ header {
   font-weight: 700;
   border: none;
   background: none;
+}
+
+/* location section related styles */
+
+.location-section {
+  background-color: antiquewhite;
+  padding: 100px 0;
+}
+
+.location-section-content {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.location-section-content h3 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.location-section-content span {
+  color: #f00;
+}
+
+.location-section-btn {
+  text-align: center;
+}
+
+.location-section-btn button {
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  color: #fff;
+  font-family: Inter;
+  border: 0;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* holyday section related styles */
+
+.holyday-section {
+  text-align: center;
+}
+
+.holyday-text-content h4 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+}
+
+.holyday-text-content h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  margin: 30px 0;
+}
+
+.holyday-text-content span {
+  color: #f00;
+}
+
+.holyday-text-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 32px;
+  /* max-width: 1000px;
+  text-align: center; */
+}
+
+/* gifts section related styles */
+
+.gifts-text-content h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+}
+
+.gifts-text-content h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.gifts-text-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 32px;
+  max-width: 900px;
+}
+
+.gifts-images-container img {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/* subscribe section related styles */
+
+.subscribe-section {
+  background: rgba(255, 0, 0, 0.05);
+  padding: 100px 200px;
+}
+
+.subscribe-section img {
+}
+
+.subscribe-texts-content {
+  border-radius: 16px;
+  text-align: center;
+}
+
+.subscribe-texts-content h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.subscribe-texts-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 50px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe-form input[type="email"] {
+  /* border-radius: 50%; */
+  padding: 25px 300px 25px 30px;
+  border: 0;
+  border-radius: 50px 0px 0px 50px;
+}
+
+.subscribe-form button {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border: 0;
+  padding: 0 55px;
 }
