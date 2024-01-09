@@ -131,11 +131,13 @@ header {
   font-weight: 700;
   border: none;
   background: none;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
 .party-section-content button:hover {
   cursor: pointer;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 /* location section related styles */
