@@ -439,3 +439,24 @@ footer p {
   cursor: pointer;
   font-size: 22px;
 }
+
+.footer-second-content-phone {
+  display: flex;
+  gap: 10px;
+  margin-bottom: -20px;
+}
+
+.footer-second-content-phone img {
+  height: 100%;
+  margin-top: 20px;
+}
+
+.footer-second-content-web {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-second-content-web img {
+  height: 100%;
+  margin-top: 20px;
+}
